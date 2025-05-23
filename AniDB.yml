@@ -209,7 +209,7 @@ xPathScrapers:
       Date: 
         selector: $info//div[@id="tab_1_pane"]//span[contains(@itemprop, "datePublished") or contains(@itemprop, "startDate")]
         postProcess:
-          - parseDate: 02.01.2006
+          - parseDate:02.01.2006
       Synopsis: 
         selector: //div[@itemprop="description"]//text()
         concat: " "
